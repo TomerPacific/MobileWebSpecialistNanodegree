@@ -24,3 +24,9 @@ To get the answer you need to divide the amount of hardware pixles by the Device
 ## Concept 09 Quiz
 Need to edit the html and add the following meta tag inside the head tag : `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 Answer is : viewportsFTW.
+
+## Concept 12 Quiz
+The answers are :
+- The one containing the image with the id #owl
+- The one containing the image with the class logo
+- The one containing the div with the class city 
