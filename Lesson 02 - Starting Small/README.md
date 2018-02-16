@@ -20,3 +20,7 @@ To get the answer you need to divide the amount of hardware pixles by the Device
 - Phablet = 307.2
 - Tablet  = 1024
 - Laptop  = 800
+
+## Concept 09 Quiz
+Need to edit the html and add the following meta tag inside the head tag : `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+Answer is : viewportsFTW.
