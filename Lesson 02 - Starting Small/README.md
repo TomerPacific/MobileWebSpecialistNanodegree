@@ -10,3 +10,7 @@ Answer is the top right square, where for every 2 device pixles, there is 1 dip.
 The answers are:
 - The device pixel ratio differs between devices
 - The viewport wasn't set
+
+## Concept 06 Quiz
+To get the answer you need to divide the amount of hardware pixles by the Device Pixel Ratio.
+`1920 / 2 = 960`
