@@ -14,3 +14,9 @@ The answers are:
 ## Concept 06 Quiz
 To get the answer you need to divide the amount of hardware pixles by the Device Pixel Ratio.
 `1920 / 2 = 960`
+
+## Concept 07 Quiz
+- Phone   = 320
+- Phablet = 307.2
+- Tablet  = 1024
+- Laptop  = 800
