@@ -9,3 +9,6 @@
 - Light Blue and Green : 50%
 - Red : 33%
 - Orange : 66%
+
+## Concept 06 Quiz - Combining Fluid Layouts
+Needed to add media queries to match the layouts that were presented
