@@ -37,3 +37,11 @@ The answers are :
 ' min-width: 48px;
   min-height : 48px;'		
 };`
+
+## Concept 16 Quiz
+In this quiz, it was needed to adjust the css of the Home Town App.
+Here is the list of things modified :
+- Added `<meta name="viewport" content="width=device-width, initial-scale=1.0">` inside the head element
+- Changed the style of any element that did not have a relative width, to have a width of 100%
+- Added a padding of 1.5em to the `.nav a` and the `footer a` selectors
+- Added a padding of 1.5em and inherit to the `.top-news__item a` and the `.snippet__title a` selectors
