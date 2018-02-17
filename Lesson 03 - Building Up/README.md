@@ -35,3 +35,11 @@ Code : BREAKingbadPOINTS
 - BB : @media screen and (min-width: 301px) and (max-width: 600px)
 - CC : @media screen and (min-width: 601px) 
 - DD : @media screen and (min-width: 961px) 
+
+## Concept 20 Quiz - Deconstructing A Flexbox Layout
+- Dark Blue - {Width : 33%, Order : 1}
+- Red - {Width : 33%, Order : 2}
+- Light Blue - {Width : 33%, Order : 3}
+- Dark Green - {Width : 50%, Order : 4}
+- Orange - {Width : 50%, Order : 5}
+- Cyan - {Width : 100%, Order : 6}
