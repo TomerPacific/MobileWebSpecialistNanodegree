@@ -30,3 +30,10 @@ The answers are :
 - The one containing the image with the id #owl
 - The one containing the image with the class logo
 - The one containing the div with the class city 
+
+## Concept 14 Quiz
+`nav a, button
+{
+' min-width: 48px;
+  min-height : 48px;'		
+};`
