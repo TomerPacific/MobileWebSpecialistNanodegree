@@ -26,3 +26,6 @@ Code : BREAKingbadPOINTS
 ## Concept 09 Quiz - How Many Breakpoints
 - Medium.com 2
 - Course example 2
+
+## Concept 12 Quiz - Pick A Breakpoint
+850 pixels wide
