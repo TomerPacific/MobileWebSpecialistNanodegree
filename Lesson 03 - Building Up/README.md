@@ -22,3 +22,7 @@ Added the following media queries :
       }`
 
 Code : BREAKingbadPOINTS
+
+## Concept 09 Quiz - How Many Breakpoints
+- Medium.com 2
+- Course example 2
