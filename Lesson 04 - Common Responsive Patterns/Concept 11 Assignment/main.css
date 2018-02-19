@@ -83,7 +83,7 @@ ul {
 
 .nav {
   /*width: 800px; */
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -379,4 +379,38 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+}
+
+/*
+ *
+ * Media Queries
+ *
+*/
+
+@media only screen and (min-width: 320px) {
+  .header__title {
+    font-size: 2.6em;
+    margin-top: 5%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .top-news {
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (min-width : 453px) {
+  
+}
+
+@media only screen and (min-width: 650px) {
+  .content, .news, .top-news, .scores, .weather, .news, .recent-news {
+    width : 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
