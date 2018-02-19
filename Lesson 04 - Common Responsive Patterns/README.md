@@ -20,3 +20,5 @@ Needed to add media queries to match the layouts that were presented
 
 ## Concept 10 Quiz - Off Canvas Visualization
 The answer is the top left option, showcasing the nav on the left side of the content and then coming into view and obsucring some content.
+
+## Concep 11 Quiz - Project Update Part 2
