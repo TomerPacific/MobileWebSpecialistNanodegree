@@ -54,6 +54,14 @@
   }
 }
 
+@media screen and (min-width: 510px) {
+  .news {
+    font-size: 1.2em;
+  }
+  .description p {
+    font-size: 1.2em;
+  }
+
 @media screen and (min-width: 550px) {
   .hero {
     order: 0;
