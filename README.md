@@ -9,3 +9,4 @@ Udacity's Mobile Web Specialist Nanodegree
 #### Lesson 03 - Building Up
 #### Lesson 04 - Common Responsive Patterns
 #### Lesson 05 - Optimizations
+#### Lesson 06 - Getting Up And Running
