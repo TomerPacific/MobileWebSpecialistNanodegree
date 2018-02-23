@@ -17,3 +17,6 @@ Added the following style rules:
 	}`
 
 Code is : myrelativesarewide
+
+## Concept 10 Quiz - Raster or Vector Banner?
+Answer is: `Vector. It scales without quality degradation.`
