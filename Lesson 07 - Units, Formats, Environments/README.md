@@ -20,3 +20,12 @@ Code is : myrelativesarewide
 
 ## Concept 10 Quiz - Raster or Vector Banner?
 Answer is: `Vector. It scales without quality degradation.`
+
+## Concept 11 Quiz - Raster and Vector Identification
+Raster Image is:
+- Kitten Photo
+Vector Images are:
+- Chrome Logo
+- Flag of Mexico
+- Repeat BG
+- Gradient BG
