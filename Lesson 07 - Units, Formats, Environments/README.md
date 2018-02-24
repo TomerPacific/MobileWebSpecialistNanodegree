@@ -36,3 +36,5 @@ Answer is: `Actual (Natural) Size`.
 
 ## Concept 14 Quiz - Spot the Differences 2
 Answer is: `Compression Level`.
+
+## Concept 16 Quiz - Project Part 1
