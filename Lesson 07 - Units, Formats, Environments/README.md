@@ -32,4 +32,7 @@ Vector Images are:
 - Gradient BG
 
 ## Concept 13 Quiz - Spot the Differences
-Answers is `Actual (Natural) Size`.
+Answer is: `Actual (Natural) Size`.
+
+## Concept 14 Quiz - Spot the Differences 2
+Answer is: `Compression Level`.
