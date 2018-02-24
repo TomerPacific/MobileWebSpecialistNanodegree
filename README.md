@@ -11,3 +11,4 @@ Udacity's Mobile Web Specialist Nanodegree
 #### Lesson 05 - Optimizations
 #### Lesson 06 - Getting Up And Running
 #### Lesson 07 - Units, Formats, Environments
+#### Lesson 08 - Images with Markup
