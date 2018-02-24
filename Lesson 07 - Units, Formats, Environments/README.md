@@ -38,3 +38,15 @@ Answer is: `Actual (Natural) Size`.
 Answer is: `Compression Level`.
 
 ## Concept 16 Quiz - Project Part 1
+Steps taken to set up and complete project:
+- Install NPM (or upgrade to latest version)
+- Npm install imagemagick
+- Download and install GraphicsMagick (for Windows)
+- Edited gruntFile to convert images
+- Converted images to be of smaller size
+- Added various styles to make images stretch only to a maximum width
+- Removed smiley face as image and instead used unicode characters
+- Added meta tag for charset utf-8
+- Added figure elements with figcaption
+- Wrapped img elements with picture element
+- Added social icons with Font Awesome
