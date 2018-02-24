@@ -19,7 +19,7 @@ Added the following style rules:
 Code is : myrelativesarewide
 
 ## Concept 10 Quiz - Raster or Vector Banner?
-Answer is: >Vector. It scales without quality degradation.
+Answer is: `Vector. It scales without quality degradation`.
 
 ## Concept 11 Quiz - Raster and Vector Identification
 Raster Image is:
@@ -32,4 +32,4 @@ Vector Images are:
 - Gradient BG
 
 ## Concept 13 Quiz - Spot the Differences
-Answers is >Actual (Natural) Sizw
+Answers is `Actual (Natural) Size`.
