@@ -18,3 +18,8 @@ Answer is: `&#119070;`.
 - Should you conver to vector graphics or keep the .jpgs? .jpg
 
 - Should you inline the images or should you set their srcs to external files? Inline Or External
+
+## Cocnept 12 Quiz - Strategy Quiz 3
+- Should you use a vector graphic or a raster graphic? Vector
+
+- Should you inline the logo or should you set its src to an external file? External
