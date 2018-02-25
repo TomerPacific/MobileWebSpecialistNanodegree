@@ -23,3 +23,8 @@ Answer is: `&#119070;`.
 - Should you use a vector graphic or a raster graphic? Vector
 
 - Should you inline the logo or should you set its src to an external file? External
+
+## Cocnept 13 Quiz - Strategy Quiz 4
+- Should you use an animated .gif or animated SVG? .svg
+
+- Should you inline the spinner or should you set its srcs to an external file? External
