@@ -13,3 +13,8 @@ Answer is: `&#119070;`.
 - Should you use a vector graphic or a raster graphic? Vector
 
 - Should you inline the star icon or should you set its src to an external file? Inline Or External
+
+## Cocnept 11 Quiz - Strategy Quiz 2
+- Should you conver to vector graphics or keep the .jpgs? .jpg
+
+- Should you inline the images or should you set their srcs to external files? Inline Or External
