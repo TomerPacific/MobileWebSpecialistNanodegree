@@ -28,3 +28,5 @@ Answer is: `&#119070;`.
 - Should you use an animated .gif or animated SVG? .svg
 
 - Should you inline the spinner or should you set its srcs to an external file? External
+
+## Concept 14 Quiz - Project Part 2
