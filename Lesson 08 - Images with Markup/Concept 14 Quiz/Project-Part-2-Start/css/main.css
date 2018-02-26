@@ -16,3 +16,18 @@ h1 {
 img {
   max-width: 100%;
 }
+
+#social {
+	list-style-type: none;
+	text-align: center;
+}
+
+#social li {
+	display: inline;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#social a {
+	text-decoration: none;
+}

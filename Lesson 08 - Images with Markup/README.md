@@ -30,3 +30,9 @@ Answer is: `&#119070;`.
 - Should you inline the spinner or should you set its srcs to an external file? External
 
 ## Concept 14 Quiz - Project Part 2
+- Replaced smiley with unicode
+- Added meta tag with charset-utf8
+- Removed Flourish
+- Added a list with 4 social icons using zocial
+
+Code is: markupisprettyawesome

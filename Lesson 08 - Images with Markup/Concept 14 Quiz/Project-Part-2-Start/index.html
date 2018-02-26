@@ -9,7 +9,7 @@
   <meta itemprop="image" content="images/icon.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta id="theme-color" name="theme-color" content="#307699">
-
+  <meta charset="utf-8">
   <base target="_blank">
 
   <title>My responsive blog: picture story</title>
@@ -20,6 +20,15 @@
   <!-- loads the Udacity Feedback extension -->
   <meta name="udacity-grader" content="http://udacity.github.io/responsive-images/project/project-grader.json" unit-tests="http://udacity.github.io/responsive-images/project/project-grader.js">
 
+<style>
+  @import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+</style>
 </head>
 
 <body>
@@ -32,7 +41,7 @@
 
     <h2>My story</h2>
 
-    <p>I love cheese, especially manchego swiss. <img src="images_src/fixed/smiley_face.png"> Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
+    <p>I love cheese, especially manchego swiss. &#9786; Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
     
     <figure>
       <img src="images/horses-1600_large_2x.jpg">
@@ -93,11 +102,12 @@
   
   </article>
 
-  <img style="max-width: 100%" src="images_src/fixed/flourish.png">
-  <!--
-  Flourish credit: http://pixabay.com/en/flourish-line-border-decoration-31609/
-  -->
-
+  <ul id="social">
+    <li><a href="#" class="zocial-twitter"></a></li>
+    <li><a href="#" class="zocial-facebook"></a></li>
+    <li><a href="#" class="zocial-googleplus"></a></li>
+    <li><a href="#" class="zocial-digg"></a></li>
+  </ul>
   <br>
   <a href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
 
