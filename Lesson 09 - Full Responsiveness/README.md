@@ -7,3 +7,9 @@ Edited the image element that relates to the Australian continent.
 `<img class="w" src="images/Australia_1280w.jpg" srcset="images/Australia_1280w.jpg 1280w, images/Australia_640w.jpg 640w" alt="Australia from Space">`
 
 Code is: setupyoursources
+
+## Concept 05 Quiz - srcset and sizes Quiz
+Edited the image element that relates to the coffee :
+`<img class="w" src="images/Coffee_1280w.jpg" sizes="(max-width: 960px) 50vw, (min-width: 961px) 100vw" srcset="images/Coffee_1280w.jpg 1280w, images/Coffee_640w.jpg 640w" alt="Coffee by Amy March from Turkey">`
+
+Code is: sizedupthecompetition
