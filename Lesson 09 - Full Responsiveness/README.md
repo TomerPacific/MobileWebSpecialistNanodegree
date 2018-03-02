@@ -13,3 +13,12 @@ Edited the image element that relates to the coffee :
 `<img class="w" src="images/Coffee_1280w.jpg" sizes="(max-width: 960px) 50vw, (min-width: 961px) 100vw" srcset="images/Coffee_1280w.jpg 1280w, images/Coffee_640w.jpg 640w" alt="Coffee by Amy March from Turkey">`
 
 Code is: sizedupthecompetition
+
+## Concept 09 Quiz - Accessibility Promise
+
+## Concept 10 Quiz - Project Part 3
+- Added a picture element to 8 images
+- Added source and srcset attribute to every picture element
+- Edit alt attribute to include text describing the image
+
+Code is: allthepictures,allthetime
