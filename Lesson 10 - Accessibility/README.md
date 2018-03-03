@@ -65,3 +65,8 @@
 
 ## Concept 11 Quiz - Experiencing a screen reader
 Using ChromeVox Lite, navigate to the button and press the click button. A window opens up with an image of koalas. The secret word is Koala.
+
+## Concept 13 Quiz - Using WebAIM Checklist
+> the web page has a descriptive and informative page title
+Rule number : 2.4.2
+POUR section : Operable
