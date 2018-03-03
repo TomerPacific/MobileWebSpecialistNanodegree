@@ -62,3 +62,6 @@
 > What temporalities does the impairment **Repetitive Strain Injury (RSI)** fit into. (check all that apply)
 	- Temporary
 	- Permanent	
+
+## Concept 11 Quiz - Experiencing a screen reader
+Using ChromeVox Lite, navigate to the button and press the click button. A window opens up with an image of koalas. The secret word is Koala.
