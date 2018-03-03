@@ -38,4 +38,27 @@
 
 - Question 2 of 2
 > Which temporalities does the impairment **holding a baby in one arm** fit into? (check all that apply)
-	- Situational	
+	- Situational
+
+## Concept 08 Quiz - Diversity of Users (Concussion)
+
+- Quesion 1 of 2
+> Which categories does the impairment **concussion** fit into? (check all that apply)
+	- Cognitive
+	- Motor
+	- Visual
+
+- Question 2 of 2
+> Which temporalities does the impairment **concussion** fit into? (check all that apply)
+	- Temporary	
+
+## Concept 09 Quiz - Diversity of Users (Concussion)
+
+- Quesion 1 of 2
+> What categories does the impairment **Repetitive Strain Injury (RSI)** fit into. (check all that apply)
+	- Motor
+
+- Question 2 of 2
+> What temporalities does the impairment **Repetitive Strain Injury (RSI)** fit into. (check all that apply)
+	- Temporary
+	- Permanent	
