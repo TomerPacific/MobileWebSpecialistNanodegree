@@ -14,3 +14,4 @@ Udacity's Mobile Web Specialist Nanodegree
 #### Lesson 08 - Images with Markup
 #### Lesson 09 - Full Responsiveness
 #### Lesson 10 - Accessibility
+#### Lesson 11 - Focus
