@@ -13,3 +13,7 @@ Navigate the webpage using tabs
 - Search Input
 - Form Elements
 - Footer Links
+
+## Concept 10 Quiz - Manage Focus Yourself
+- Added `tabindex="-1"` to h2 elements
+- Added code in main.js that will focus on the h2 element once a link is clicked
