@@ -17,3 +17,6 @@ Navigate the webpage using tabs
 ## Concept 10 Quiz - Manage Focus Yourself
 - Added `tabindex="-1"` to h2 elements
 - Added code in main.js that will focus on the h2 element once a link is clicked
+
+## Concept 14 Quiz - Implementing Keyboard Event Listeners
+- Added code that deals with incrementing/decrementing the index of the focused element
