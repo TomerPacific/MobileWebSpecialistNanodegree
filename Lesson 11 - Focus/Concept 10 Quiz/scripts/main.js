@@ -1,3 +1,6 @@
+var isFirstPage = true;
+
+
 page('/', function() {
   page.redirect('/what-is-vegemite');
 });
@@ -19,6 +22,12 @@ page('/:slug', function(context) {
   newMenuItem.classList.add('is-active');
   newPage.classList.add('is-active');
 
+  if(isFirstPage) {
+    isFirstPage = false;
+    return;
+  }
+
+  newPage.querySelector('h2').focus();
 });
 
 page({
