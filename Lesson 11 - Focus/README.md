@@ -19,4 +19,9 @@ Navigate the webpage using tabs
 - Added code in main.js that will focus on the h2 element once a link is clicked
 
 ## Concept 14 Quiz - Implementing Keyboard Event Listeners
-- Added code that deals with incrementing/decrementing the index of the focused element
+
+Added code that deals with incrementing/decrementing the index of the focused element
+
+## Concept 16 Quiz - Implementing Offscreen Content
+
+Changed the css of the modal to be `display:none`.
