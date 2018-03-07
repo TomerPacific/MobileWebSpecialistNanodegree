@@ -15,3 +15,4 @@ Udacity's Mobile Web Specialist Nanodegree
 #### Lesson 09 - Full Responsiveness
 #### Lesson 10 - Accessibility
 #### Lesson 11 - Focus
+#### Lesson 12 - Semantics Basics
