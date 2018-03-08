@@ -23,3 +23,12 @@ The tree that has the nodes of heading, link and div in it's second level is the
 ## Concept 12 Quiz - Writing Semantic HTML Quiz
 Change the div element with the class of button to be a button element
 `<button class="button" id="wombats-button">Give me wombats</button>`
+
+## Concept 14 Quiz - Labeling Input Elements
+Live version of quiz - http://udacity.github.io/ud891/lesson3-semantics-built-in/16-labelling-input-elements/flight-booking.html
+Missing a label for receive promotional offers checkbox
+
+`<div class="inline-control sign-up col-1">
+	<input type="checkbox" checked name="jLetter" id="jLetter"> 
+	<label for="jLetter">Receive promotional offers?</label>
+</div>`
