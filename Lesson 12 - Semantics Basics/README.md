@@ -28,7 +28,7 @@ Change the div element with the class of button to be a button element
 Live version of quiz - http://udacity.github.io/ud891/lesson3-semantics-built-in/16-labelling-input-elements/flight-booking.html
 Missing a label for receive promotional offers checkbox
 
-`<div class="inline-control sign-up col-1">
-	<input type="checkbox" checked name="jLetter" id="jLetter"> 
-	<label for="jLetter">Receive promotional offers?</label>
-</div>`
+`<div class="inline-control sign-up col-1">`
+	`<input type="checkbox" checked name="jLetter" id="jLetter">` 
+	`<label for="jLetter">Receive promotional offers?</label>`
+`</div>`
