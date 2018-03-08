@@ -20,3 +20,6 @@ Tabbing through the fields you find that the first form field has a Role of **ed
 ## Concept 10 Quiz - Matching simple DOM and A11y Tree
 The tree that has the nodes of heading, link and div in it's second level is the correct answer
 
+## Concept 12 Quiz - Writing Semantic HTML Quiz
+Change the div element with the class of button to be a button element
+`<button class="button" id="wombats-button">Give me wombats</button>`
