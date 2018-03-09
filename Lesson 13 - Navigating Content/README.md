@@ -8,3 +8,7 @@
 "Study shows 9 out of 10 cats..." `h3`
 
 "In the news" `h2`
+
+## Concept 09 Quiz - Link Text
+
+The **click here** link and the **Photos** link are styled like links, but are not actually links.
