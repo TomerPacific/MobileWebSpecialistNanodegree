@@ -41,4 +41,3 @@ Koala Munchies logo -  alt="Koala Munchies"
 Shopping cart button - alt=""
 
 Red Gum - 			   alt=""
-
