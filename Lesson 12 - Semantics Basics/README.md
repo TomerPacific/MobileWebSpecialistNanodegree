@@ -32,3 +32,9 @@ Missing a label for receive promotional offers checkbox
 	`<input type="checkbox" checked name="jLetter" id="jLetter">` 
 	`<label for="jLetter">Receive promotional offers?</label>`
 `</div>`
+
+## Concept 16 Quiz - Labeling Images With ALT Text
+Shopping cart image -  alt="Shopping cart"
+Koala Munchies logo -  alt="Koala Munchies"
+Shopping cart button - alt=""
+Red Gum - 			   alt=""
