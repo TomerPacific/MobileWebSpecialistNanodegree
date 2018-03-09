@@ -35,6 +35,10 @@ Missing a label for receive promotional offers checkbox
 
 ## Concept 16 Quiz - Labeling Images With ALT Text
 Shopping cart image -  alt="Shopping cart"
+
 Koala Munchies logo -  alt="Koala Munchies"
+
 Shopping cart button - alt=""
+
 Red Gum - 			   alt=""
+
