@@ -17,3 +17,10 @@ Input element with name="roo" will not have a label
 Div element with a role="button" will have a label of Wombat
 
 Span element with a role="checkbox" will have a label of Wallaby
+
+## Concept 12 Quiz - Combo Box
+Added logic to call setActiveDescendant and to insert the correct location and size to filtered combo box items
+
+>aria-setsize may apply to elements with a role of(select all the apply):
+- Option
+- Listitem
