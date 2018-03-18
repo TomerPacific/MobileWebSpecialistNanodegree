@@ -11,3 +11,7 @@ Added aria-expanded and aria-hidden attributes to css rules instead of css class
 ## Concept 12 Quiz - Using Mobile Screen Readers
 
 The secret word is **Kangaroo**
+
+## Concept 15 Quiz - Contrast Audit
+
+Changed the color of `.blog-masthead, .blog-description and .blog-post-meta`
