@@ -10,12 +10,12 @@
         searchedForText = searchField.value;
     });
     
-    const unsplashRequest = new XMLHttpRequest();
-
-    unsplashRequest.open('GET', `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`);
-    unsplashRequest.onload = addImage;
-    unsplashRequest.setRequestHeader('Authorization', '23309');
-    unsplashRequest.send();
+   $.ajax({
+    url: `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`
+    headers:{
+        Authorization: 'Client-ID 123abc456def'     
+        }
+    }).done(addImage);
 
 
     const articleRequest = new XMLHttpRequest();
@@ -23,19 +23,12 @@
     articleRequest.open('GET', `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=635d2676d9d248b48605a5eac3ea3b43`);
     articleRequest.send();
 
-    function addImage() {
-        let htmlContent = '';
-        const data = JSON.parse(this.responseText);
-
-        if(data && data.results && data.results[0]) {
-            const firstImage = data.results[0];
-            htmlContent = '<figure> <img src="${firstImage.url}" alt="${searchedForText}"> <figcaption>${searchedForText} by ${firstImage.user.name}</figcaption></figure>';
-
-        } else {
-            htmlContent = '<div class="error-no-image">No images available</div>';
-        }
-
-        responseContainer.insertAdjacentHTML('afterbegin', htmlContent);
+    function addImage(images) {
+        const firstImage = images.results[0];
+        responseContainer.insertAdjacentHTML('afterbegin', `<figure>
+            <img src="${firstImage.urls.small}" alt="${searchedForText}">
+            <figcaption>${searchedForText} by ${firstImage.user.name}</figcaption>
+        </figure>`);
     }
 
 
