@@ -20,12 +20,14 @@
 
 
 
-   $.ajax({
-    url: `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}`
-    headers:{
-        Authorization: 'API-KEY 635d2676d9d248b48605a5eac3ea3b43'     
-        }
-    }).done(addArticles);
+    fetch(`http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}`, {
+    headers: {
+        Authorization: 'API-KEY 635d2676d9d248b48605a5eac3ea3b43' 
+    }
+    }).then(response => response.json())
+    .then(addArticles)
+    .catch(e => requestError(e, 'image'));
+
 
     function addImage(data) {
         let htmlContent = '';
