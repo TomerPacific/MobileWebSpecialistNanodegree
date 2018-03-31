@@ -11,3 +11,11 @@ Question 1 of 2 :
 Question 2 of 2 :
 
 GET
+
+## Concept 04 Question
+
+>None of the above
+
+## Concept 05 Question
+
+>`.blob()`
