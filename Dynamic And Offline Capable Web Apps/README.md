@@ -11,3 +11,5 @@
 ## Lesson 11 - [Build Tools](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Dynamic%20And%20Offline%20Capable%20Web%20Apps/Lesson%2011%20-%20Build%20Tools)
 
 ## Lesson 12 - [Expressive Live Editing](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Dynamic%20And%20Offline%20Capable%20Web%20Apps/Lesson%2012%20-%20Expressive%20Live%20Editing)
+
+## Lesson 13 - [How To Prevent Disasters](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Dynamic%20And%20Offline%20Capable%20Web%20Apps/Lesson%2013%20-%20How%20To%20Prevent%20Disasters)
