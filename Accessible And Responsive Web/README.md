@@ -15,3 +15,4 @@
 ## Lesson 13 - [Navigating Content](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Lesson%2013%20-%20Navigating%20Content)
 ## Lesson 14 - [ARIA](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Lesson%2014%20-%20ARIA)
 ## Lesson 15 - [Style](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Lesson%2015%20-%20Style)
+## Lesson 16 - [The Benefits Of Offline First](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Accessible%20And%20Responsive%20Web/Lesson%2016%20-%20The%20Benefits%20Of%20Offline%20First)
