@@ -27,4 +27,10 @@ Follow instructions from here: https://classroom.udacity.com/nanodegrees/nd024/p
 
 ## Concept 11 Quiz - Changing Conncetion Types
 Go to localhost:8889 and change the **Connection to Server** to be Offline.
-Then type offline in the Test ID field
+Then type offline in the Test ID field.
+You should see an animated gif with the  title `Yep! The server is totally dead!`
+
+## Concept 12 Quiz - Testing Lie Fi Mode
+Go to localhost:8889 and change the **Connection to Server** to be Offline.
+Then type lie-fi in the Test ID field.
+You should see an animated gif with the  title `Yeeeep, that's lie-fi alright`
