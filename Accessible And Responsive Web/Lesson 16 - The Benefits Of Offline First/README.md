@@ -24,3 +24,7 @@ Follow instructions from here: https://classroom.udacity.com/nanodegrees/nd024/p
 
 ## Concept 09 Quiz - Running the Demo App
 Follow instructions from here: https://classroom.udacity.com/nanodegrees/nd024/parts/0bf842e9-7269-42de-b68b-812ca7823517/modules/83c4bddc-b362-4e71-8fa1-91f30ba57ab0/lessons/6370369679/concepts/63794801220923
+
+## Concept 11 Quiz - Changing Conncetion Types
+Go to localhost:8889 and change the **Connection to Server** to be Offline.
+Then type offline in the Test ID field
