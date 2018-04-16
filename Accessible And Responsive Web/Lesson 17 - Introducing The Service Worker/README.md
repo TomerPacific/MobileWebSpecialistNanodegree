@@ -44,3 +44,14 @@ The code that is added to the registerServiceWorker function is:
 
 Go to localhost:8889 and type **registered** in the Test ID field.
 You should see an animated gif with the  title `Service worker successfully registered!`
+
+## Concept 06 Quiz - Enabling Service Worker Dev Tools
+
+This task requires you to download Chrome Canary, but this is not mandatory anymore.
+
+## Concept 07 Quiz - Service Worker Dev Tools
+
+Change the console.log inside sw/index.js and while using dev tools, refresh the page.
+
+Go to localhost:8889 and type **sw-waiting** in the Test ID field.
+You should see an animated gif with the  title `Yey! There's a service worker waiting!`
