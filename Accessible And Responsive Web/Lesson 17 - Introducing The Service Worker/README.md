@@ -55,3 +55,12 @@ Change the console.log inside sw/index.js and while using dev tools, refresh the
 
 Go to localhost:8889 and type **sw-waiting** in the Test ID field.
 You should see an animated gif with the  title `Yey! There's a service worker waiting!`
+
+## Concept 08 Quiz - Service Worker Dev Tools 2
+
+Navigate to a different url that is out of the service worker's scope and then return to the original url.
+
+You should see in the dev tools, that there is no service worker waiting.
+
+Go to localhost:8889 and type **sw-active** in the Test ID field.
+You should see an animated gif with the  title `No service worker waiting! Yay!`
