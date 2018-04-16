@@ -64,3 +64,16 @@ You should see in the dev tools, that there is no service worker waiting.
 
 Go to localhost:8889 and type **sw-active** in the Test ID field.
 You should see an animated gif with the  title `No service worker waiting! Yay!`
+
+## Concept 11 Quiz - Hijacking Requests 1
+
+Added the following code:
+`event.respondWith(
+    new Response('Hello <b class="a-winner-is-me">world</b>', {
+      headers: {'Content-Type':'text/html'}
+    })
+  );
+});`
+
+Go to localhost:8889 and type **html-response** in the Test ID field.
+You should see an animated gif with the  title `Custom HTML response found! Yay!`
