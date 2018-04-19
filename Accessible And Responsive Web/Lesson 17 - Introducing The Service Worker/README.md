@@ -128,3 +128,11 @@ Added the folllowing code:
 
 Go to localhost:8889 and type **install-cached** in the Test ID field.
 You should see an animated gif with the title `Yay! The cache is ready to go!`
+
+## Concept 18 Quiz - Cache Response
+Added the folllowing code:
+
+``
+
+Go to localhost:8889 and type **cache-served** in the Test ID field.
+You should see an animated gif with the title `Yay! Cached responses are being returned!`
