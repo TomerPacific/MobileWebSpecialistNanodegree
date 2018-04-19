@@ -132,7 +132,16 @@ You should see an animated gif with the title `Yay! The cache is ready to go!`
 ## Concept 18 Quiz - Cache Response
 Added the folllowing code:
 
-``
+`self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      if (response) {
+        return response;
+      }
+      return fetch(event.request);
+    })
+    );
+});`
 
 Go to localhost:8889 and type **cache-served** in the Test ID field.
 You should see an animated gif with the title `Yay! Cached responses are being returned!`
