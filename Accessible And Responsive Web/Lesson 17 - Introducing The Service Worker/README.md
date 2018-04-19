@@ -43,7 +43,7 @@ The code that is added to the registerServiceWorker function is:
 };`
 
 Go to localhost:8889 and type **registered** in the Test ID field.
-You should see an animated gif with the  title `Service worker successfully registered!`
+You should see an animated gif with the title `Service worker successfully registered!`
 
 ## Concept 06 Quiz - Enabling Service Worker Dev Tools
 
@@ -54,7 +54,7 @@ This task requires you to download Chrome Canary, but this is not mandatory anym
 Change the console.log inside sw/index.js and while using dev tools, refresh the page.
 
 Go to localhost:8889 and type **sw-waiting** in the Test ID field.
-You should see an animated gif with the  title `Yey! There's a service worker waiting!`
+You should see an animated gif with the title `Yey! There's a service worker waiting!`
 
 ## Concept 08 Quiz - Service Worker Dev Tools 2
 
@@ -63,7 +63,7 @@ Navigate to a different url that is out of the service worker's scope and then r
 You should see in the dev tools, that there is no service worker waiting.
 
 Go to localhost:8889 and type **sw-active** in the Test ID field.
-You should see an animated gif with the  title `No service worker waiting! Yay!`
+You should see an animated gif with the title `No service worker waiting! Yay!`
 
 ## Concept 11 Quiz - Hijacking Requests 1
 
@@ -76,7 +76,7 @@ Added the following code:
 });`
 
 Go to localhost:8889 and type **html-response** in the Test ID field.
-You should see an animated gif with the  title `Custom HTML response found! Yay!`
+You should see an animated gif with the title `Custom HTML response found! Yay!`
 
 ## Concept 13 Quiz - Hijacking Requests 2
 Added the folllowing code:
@@ -89,4 +89,22 @@ Added the folllowing code:
   }`
 
 Go to localhost:8889 and type **gif-response** in the Test ID field.
-You should see an animated gif with the  title `Images are being intercepted!`
+You should see an animated gif with the title `Images are being intercepted!`
+
+## Concept 15 Quiz - Hijacking Requests 3
+Added the folllowing code:
+
+`self.addEventListener('fetch', function(event) {
+    event.respondWith(
+      fetch(event.request).then(function(response) {
+        if (response.status === 404) {
+          return fetch('/imgs/dr-evil.gif');
+        }
+        return response;
+      }).catch(function() {
+        return new Response("Uh oh, that totally failed!");
+      })
+      );
+});`
+
+Go to localhost:8889 and type **gif-404** in the Test ID field.
