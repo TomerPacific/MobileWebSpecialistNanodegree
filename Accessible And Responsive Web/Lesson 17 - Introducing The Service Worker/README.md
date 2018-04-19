@@ -151,3 +151,19 @@ Locate the *_theme.scss* file and change at the very least, the `$primary-color`
 
 Go to localhost:8889 and type **new-cache-ready** in the Test ID field.
 You should see an animated gif with the title `Yay! The new cache is ready, but isn't disrupting current pages`
+
+## Concept 21 Quiz - Update Your CSS 2
+To activate the new cache, either navigate to a page outside the scope of wittr, or hard refresh using shift + f5.
+Also add the following code:
+
+`self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    // TODO: remove the old cache
+    caches.delete('wittr-static-v1');
+  );
+});`
+
+And change the cache version to 2
+
+Go to localhost:8889 and type **new-cache-used** in the Test ID field.
+You should see an animated gif with the title `Yay! You safely updated the CSS!`
