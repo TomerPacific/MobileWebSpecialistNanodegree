@@ -145,3 +145,9 @@ Added the folllowing code:
 
 Go to localhost:8889 and type **cache-served** in the Test ID field.
 You should see an animated gif with the title `Yay! Cached responses are being returned!`
+
+## Concept 20 Quiz - Update Your CSS
+Locate the *_theme.scss* file and change at the very least, the `$primary-color` variable.
+
+Go to localhost:8889 and type **new-cache-ready** in the Test ID field.
+You should see an animated gif with the title `Yay! The new cache is ready, but isn't disrupting current pages`
