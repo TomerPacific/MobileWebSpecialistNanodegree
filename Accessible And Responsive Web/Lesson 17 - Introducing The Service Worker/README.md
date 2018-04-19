@@ -77,3 +77,16 @@ Added the following code:
 
 Go to localhost:8889 and type **html-response** in the Test ID field.
 You should see an animated gif with the  title `Custom HTML response found! Yay!`
+
+## Concept 13 Quiz - Hijacking Requests 2
+Added the folllowing code:
+
+`self.addEventListener('fetch', function(event) {
+  if (event.request.url.endsWith('.jpg')) {
+    event.respondWith(
+      fetch('/imgs/dr-evil.gif')
+      );
+  }`
+
+Go to localhost:8889 and type **gif-response** in the Test ID field.
+You should see an animated gif with the  title `Images are being intercepted!`
