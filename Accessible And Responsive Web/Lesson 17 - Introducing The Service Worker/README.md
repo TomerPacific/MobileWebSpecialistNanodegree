@@ -109,3 +109,22 @@ Added the folllowing code:
 
 Go to localhost:8889 and type **gif-404** in the Test ID field.
 You should see an animated gif with the title `Yay! 404 pages get gifs!`
+
+## Concept 17 Quiz - Install and Cache
+Added the folllowing code:
+
+`self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('wittr-static-v1').then(function(cache) {
+      return cache.addAll([
+               '/',
+          'js/main.js',
+          'css/main.css',
+          'imgs/icon.png',
+          'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
+          'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
+        ]);
+    }));`
+
+Go to localhost:8889 and type **install-cached** in the Test ID field.
+You should see an animated gif with the title `Yay! The cache is ready to go!`
