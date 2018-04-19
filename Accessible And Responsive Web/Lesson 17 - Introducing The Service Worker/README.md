@@ -167,3 +167,41 @@ And change the cache version to 2
 
 Go to localhost:8889 and type **new-cache-used** in the Test ID field.
 You should see an animated gif with the title `Yay! You safely updated the CSS!`
+
+## Concept 23 Quiz - Adding UX
+Added the following code:
+
+`IndexController.prototype._registerServiceWorker = function() {
+  if (!navigator.serviceWorker) return;
+  var indexController = this;
+  navigator.serviceWorker.register('/sw.js').then(function(reg) {
+    if (!navigator.serviceWorker.controller) {
+      return;
+    }
+    if (reg.waiting) {
+      indexController._updateReady();
+      return;
+    }
+    if (reg.installing) {
+      indexController._trackInstalling(reg.installing);
+      return;
+    }
+    reg.addEventListener('updatefound', function() {
+      indexController._trackInstalling(reg.installing);
+    });
+  });
+};`
+
+And
+
+`IndexController.prototype._trackInstalling = function(worker) {
+  var indexController = this;
+  worker.addEventListener('statechange', function() {
+    if (worker.state == 'installed') {
+      indexController._updateReady();
+    }
+  });
+};`
+
+Go to localhost:8889 and type **update-notify** in the Test ID field.
+You should see an animated gif with the title `Yay! There are notifications!`
