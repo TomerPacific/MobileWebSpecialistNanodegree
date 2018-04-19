@@ -108,3 +108,4 @@ Added the folllowing code:
 });`
 
 Go to localhost:8889 and type **gif-404** in the Test ID field.
+You should see an animated gif with the title `Yay! 404 pages get gifs!`
