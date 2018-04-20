@@ -205,3 +205,49 @@ And
 
 Go to localhost:8889 and type **update-notify** in the Test ID field.
 You should see an animated gif with the title `Yay! There are notifications!`
+
+## Concept 25 Quiz - Triggering an Update
+
+Added the following code in indexController.js:
+
+`navigator.serviceWorker.addEventListener('controllerchange', function() {
+    window.location.reload();
+  });`
+
+And
+
+`toast.answer.then(function(answer) {
+    if (answer != 'refresh') return;
+    // TODO: tell the service worker to skipWaiting
+    worker.postMessage({action:'skipWaiting'});
+  });`
+
+And in index.js:
+
+`self.addEventListener('message', function(event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
+});`
+
+
+
+Go to localhost:8889 and type **update-reload** in the Test ID field.
+
+## Concept 26 Quiz - Caching the Page Skeleton
+Added the following code:
+
+- `Added /skeleton to routes being saved`
+
+- `Upgraded version of cache to 4`
+
+- `self.addEventListener('fetch', function(event) {
+  var requestURL = new URL(event.request.url);
+  if(request.Url.origin === location.origin) {
+    if(requestURL.pathname === '/') {
+      event.respondWith(caches.match('/skeleton'));
+      return;
+    }
+  }`
+
+Go to localhost:8889 and type **serve-skeleton** in the Test ID field.
