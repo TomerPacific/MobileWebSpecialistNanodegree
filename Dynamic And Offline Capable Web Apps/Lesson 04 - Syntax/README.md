@@ -6,24 +6,6 @@
 
 - Changed iterator of for loop to be of let type
 
-`/*
- * Programming Quiz: Using Let and Const (1-1)
- */
-const CHARACTER_LIMIT = 255;
-const posts = [
-	"#DeepLearning transforms everything from self-driving cars to language translations. AND it's our new Nanodegree!",
-	"Within your first week of the VR Developer Nanodegree Program, you'll make your own virtual reality app",
-	"I just finished @udacity's Front-End Web Developer Nanodegree. Check it out!"
-];
-// prints posts to the console
-function displayPosts() {
-	for (let i = 0; i < posts.length; i++) {
-		console.log(posts[i].slice(0, CHARACTER_LIMIT));
-	}
-}
-displayPosts();
-`
-
 ## Concept 05 Quiz - Build an HTML Fragment(1-2)
 
 Changing all access of animal variable properties to be of template literal
@@ -43,4 +25,19 @@ Changing all access of animal variable properties to be of template literal
         </div>
     </div>`
 
-    
+## Concept 07 Quiz - Destructuring Arrays(1-3)
+> Use array destructuring to pull out the three colors from the array of things and store them into the variables one, two, and three.
+
+`const [one, , , two, , , ,three] = things;`
+
+## Concept 13 Quiz - Writing a For...of Loop(1-4)
+
+>Write a for...of loop that:
+
+- loops through each day in the days array
+- capitalizes the first letter of the day
+- and prints the day out to the console
+
+`for(const day of days){
+    console.log(day[0].toUpperCase() + day.substr(1));
+}`
