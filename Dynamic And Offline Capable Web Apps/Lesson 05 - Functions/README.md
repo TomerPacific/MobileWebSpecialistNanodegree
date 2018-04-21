@@ -19,3 +19,16 @@
 `function buildHouse({floors = 1, color = 'red' , walls = 'brick'} = {}) {
  return ``Your house has ${floors} floor(s) with ${color} ${walls} walls.``;   
 }`
+
+## Concept 20 Quiz - Building Classes and Subclasses(2-3)
+
+> Create a Bicycle subclass that extends the Vehicle class. The Bicycle subclass should override Vehicle's constructor function by changing the default values for wheels from 4 to 2 and horn from 'beep beep' to 'honk honk'.
+
+`class Bicycle extends Vehicle {
+    constructor(color, wheels = 2, horn = 'honk honk'){
+        super(color, wheels, horn);
+    }
+    honkHorn() {
+        console.log(this.horn);
+    }
+}`
