@@ -32,7 +32,7 @@ Changing all access of animal variable properties to be of template literal
 
 ## Concept 13 Quiz - Writing a For...of Loop(1-4)
 
->Write a for...of loop that:
+> Write a for...of loop that:
 
 - loops through each day in the days array
 - capitalizes the first letter of the day
@@ -40,4 +40,18 @@ Changing all access of animal variable properties to be of template literal
 
 `for(const day of days){
     console.log(day[0].toUpperCase() + day.substr(1));
+}`
+
+## Concept 16 Quiz - Using the Rest Parameter(1-5)
+
+> Use the rest parameter to create an average() function that calculates the average of an unlimited amount of numbers.
+
+`function average(...nums) {
+    let sum = 0;
+    let amount = nums.length;
+    if(amount === 0) return sum;
+    for(const n of nums){
+        sum += n;
+    }
+    return sum / amount;
 }`
