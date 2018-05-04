@@ -100,3 +100,20 @@ Upgraded the version of the cache to be 6 in sw/index.js
 
 Go to localhost:8889 and type **idb-clean** in the Test ID field.
 You should see an animated gif with the title `Looks like the database is being cleaned!`
+
+## Concept 09 Quiz - Cache Photos Quiz
+
+Added the following code to the servePhotos method :
+
+`return caches.open(contentImgsCache).then(function(cache) {
+    return cache.match(storageUrl).then(function(response) {
+      if (response) return response;
+      return fetch(request).then(function(networkResponse) {
+        cache.put(storageUrl, networkResponse.clone());
+        return networkResponse;
+      });
+    });
+  });`
+
+Go to localhost:8889 and type **cache-photos** in the Test ID field.
+You should see an animated gif with the title `Photos are being cached and served correctly!`
