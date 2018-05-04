@@ -144,3 +144,25 @@ Added the following code to the cleanImageCache method :
   });`
 
 Go to localhost:8889 and type **cache-clean** in the Test ID field.
+
+## Concept 13 Quiz - Caching Avatars
+
+Added the following code inside index.js :
+
+`if (requestUrl.pathname.startsWith('/avatars/')) {
+      event.respondWith(serveAvatar(event.request));
+      return;
+    }`
+
+Added the following code inside the serveAvatar method :
+`return caches.open(contentImgsCache).then(function(cache) {
+    return cache.match(storageUrl).then(function(response) {
+      var networkFetch = fetch(request).then(function(networkResponse) {
+        cache.put(storageUrl, networkResponse.clone());
+        return networkResponse;
+      });
+      return response || networkFetch;
+    });
+  });`
+
+Go to localhost:8889 and type **cache-avatars** in the Test ID field.
