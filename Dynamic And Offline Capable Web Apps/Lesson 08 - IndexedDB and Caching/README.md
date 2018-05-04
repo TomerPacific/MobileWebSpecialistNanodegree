@@ -47,3 +47,23 @@ Added the following code:
 
 Go to localhost:8889 and type **idb-age** in the Test ID field.
 You should see an animated gif with the title `Yay! The age index is working`
+
+## Concept 06 Quiz - Using IDB Cache
+
+Added the following code in the openDatabase method :
+
+`return idb.open('wittr', 1, function(upgradeDb) {
+    var store = upgradeDb.createObjectStore('wittrs', {
+      keyPath: 'id'
+    });
+    store.createIndex('by-date', 'time');
+  });`
+
+Added the following code in the _onSocketMessage method :
+`var tx = db.transaction('wittrs', 'readwrite');
+    var store = tx.objectStore('wittrs');
+    messages.forEach(function(message) {
+      store.put(message);
+    });`
+Go to localhost:8889 and type **idb-store** in the Test ID field.
+You should see an animated gif with the title `The database is set up and populated!`
