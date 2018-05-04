@@ -117,3 +117,30 @@ Added the following code to the servePhotos method :
 
 Go to localhost:8889 and type **cache-photos** in the Test ID field.
 You should see an animated gif with the title `Photos are being cached and served correctly!`
+
+## Concept 12 Quiz - Cleaning Photo Cache Quiz
+
+Added the following code to the cleanImageCache method :
+
+`var imagesNeeded = [];
+    var tx = db.transaction('wittrs');
+    return tx.objectStore('wittrs').getAll().then(function(messages) {
+      messages.forEach(function(message) {
+        if (message.photo) {
+          imagesNeeded.push(message.photo);
+        }
+      });
+      return caches.open('wittr-content-imgs');
+    }).then(function(cache) {
+      return cache.keys().then(function(requests) {
+        requests.forEach(function(request) {
+          var url = new URL(request.url);
+          if (!imagesNeeded.includes(url.pathname)) {
+            cache.delete(request);
+          }
+        });
+      });
+    });
+  });`
+
+Go to localhost:8889 and type **cache-clean** in the Test ID field.
