@@ -83,3 +83,20 @@ Upgraded the version of the cache to be 5 in sw/index.js
 
 Go to localhost:8889 and type **idb-show** in the Test ID field.
 You should see an animated gif with the title `Page populated from IDB!`
+
+## Concept 08 Quiz - Cleaning IDB
+
+Added the following code to the onSocketMessage method :
+
+`store.index('by-date').openCursor(null, 'prev').then(function(cursor) {
+      return cursor.advance(30);
+    }).then(function deleteRest(cursor) {
+      if (!cursor) return;
+      cursor.delete();
+      return cursor.continue().then(deleteRest);
+    })`
+
+Upgraded the version of the cache to be 6 in sw/index.js
+
+Go to localhost:8889 and type **idb-clean** in the Test ID field.
+You should see an animated gif with the title `Looks like the database is being cleaned!`
