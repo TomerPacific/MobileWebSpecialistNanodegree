@@ -59,11 +59,27 @@ Added the following code in the openDatabase method :
     store.createIndex('by-date', 'time');
   });`
 
-Added the following code in the _onSocketMessage method :
+Added the following code in the onSocketMessage method :
+
 `var tx = db.transaction('wittrs', 'readwrite');
     var store = tx.objectStore('wittrs');
     messages.forEach(function(message) {
       store.put(message);
     });`
+
 Go to localhost:8889 and type **idb-store** in the Test ID field.
 You should see an animated gif with the title `The database is set up and populated!`
+
+## Concept 07 Quiz - Using IDB 2
+
+Added the following code in indexController.js :
+
+`var index = db.transaction('wittrs').objectStore('wittrs').index('by-date');
+    return index.getAll().then(function(messages) {
+        indexController._postsView.addPosts(messages.reverse());
+    }); `
+
+Upgraded the version of the cache to be 5 in sw/index.js
+
+Go to localhost:8889 and type **idb-show** in the Test ID field.
+You should see an animated gif with the title `Page populated from IDB!`
