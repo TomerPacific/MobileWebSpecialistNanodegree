@@ -5,3 +5,4 @@ Udacity's Mobile Web Specialist Nanodegree
 
 ### [Accessible And Responsive Web](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Accessible%20And%20Responsive%20Web)
 ### [Dynamic And Offline Capable Web Apps](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Dynamic%20And%20Offline%20Capable%20Web%20Apps)
+### [Performant Web Apps](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps)
