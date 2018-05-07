@@ -19,4 +19,10 @@ Host: test.com
 X-Udacity-Exercise-Header: Text
 Date: Wed, 11 Jan 1995 23:00:00 GMT`
 
->Answer is : ba16d 
+>Answer is : ba16d
+
+## Concept 09 Quiz - REST Quiz
+
+> Enter the letters for a REST URL that will create a new whale
+
+A(POST) - D(animals) - F(/) - G(whale) 
