@@ -18,5 +18,12 @@
 - Download L3-Hasing-Binary Zip
 - Launch the executable
 - Open a browser and go to **localhost:8080**
-- Type in some text and paste in the corresponding SHA values
+- Type in some text and paste it in the corresponding SHA values
+
+## Concept 11 Quiz - SSL Error Quiz
+
+> Which of these issues will result in Chrome denying a user access?
+
+- Expired Certificate
+- Certificate for another host
 
