@@ -7,8 +7,16 @@
 
 > Answer is : The site's images are flipped upside down
 
-## Concept 04 Quiz 0 MITM Quiz 2
+## Concept 04 Quiz - MITM Quiz 2
 
 - Follow the same instructions as in the previous quiz, except now, navigate to a secure website
 
 > Answer is : The site is unreachable
+
+## Concept 08 Quiz - Hashing Quiz
+
+- Download L3-Hasing-Binary Zip
+- Launch the executable
+- Open a browser and go to **localhost:8080**
+- Type in some text and paste in the corresponding SHA values
+
