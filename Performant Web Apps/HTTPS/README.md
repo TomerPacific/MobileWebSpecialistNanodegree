@@ -27,3 +27,10 @@
 - Expired Certificate
 - Certificate for another host
 
+## Concept 13 Quiz - Mixed Content Quiz
+
+- Download L3-Mixed-Content-Binary Zip
+- Launch the executable
+- Open a browser and go to **localhost:8080**
+- Check the console and see that the tile that is problematic is found at `x = 10 and y = 3` 
+
