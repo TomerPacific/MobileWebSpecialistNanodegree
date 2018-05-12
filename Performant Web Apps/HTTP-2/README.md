@@ -10,3 +10,12 @@
 > Reduction in transferred bytes : 178 KB / 336 KB ~ 53 % 
 
 > Speed increase for the load time : 911ms / 2.86s ~ 68 % 
+
+## Concept 08 Quiz - Development Techniques for HTTP/2
+
+> Which of thse should be done when developing for HTTP/2?
+
+- Minify Javascript 
+- Minify CSS
+- Minify your Markup
+- Use a CDN
