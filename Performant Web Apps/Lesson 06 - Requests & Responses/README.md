@@ -38,3 +38,12 @@ What is the hostname in this URI?
 > Which of the URIs below refers to the same resource as https://en.wikipedia.org/wiki/Fish?
 
 ` https://en.wikipedia.org:443/wiki/Fish`
+
+## Concept 05 - HTTP GET requests
+
+> Which of these things do you see in the server's response?
+
+- A line that ends with 200 OK
+- The date and time
+- A piece of HTML
+
