@@ -47,3 +47,24 @@ What is the hostname in this URI?
 - The date and time
 - A piece of HTML
 
+## Concept 06 - HTTP responses
+
+> Question 1 of 5 : What do you think Google's server wants the client to do?
+
+`Go to http://www.google.com/ instead of http://google.com/`
+
+> Question 2 of 5 : What does the Content-type header sent by the two servers mean? Content-type: text/html; charset=utf-8
+
+`The server is telling the client that the response body is an HTML document written in UTF-8 text`
+
+> Question 3 of 5 : Use ncat -l 9999 to listen on port 9999. Connect to it with your web browser at http://localhost:9999/. What do you see in your terminal?
+
+`An HTTP request that starts with "GET /HTTP/1.1`
+
+> Question 4 of 5 : What happens in your browser after sending it the response described above?
+
+`It opens the web page of the Electronic Frontier Foundation (EFF)`
+
+> Question 5 of 5 : What happens in your browser after you send it the HTTP response with 200 OK?
+
+`It displays the message that you typed, in plain text`
