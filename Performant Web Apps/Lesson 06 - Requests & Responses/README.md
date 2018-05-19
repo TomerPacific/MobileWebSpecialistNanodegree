@@ -25,4 +25,16 @@ What is the hostname in this URI?
 
 `example.net`
 
+## Concept 04 - Hostnames and ports
 
+> Question 1 of 3 : Use the host or nslookup command to find the IPv4 address for the name localhost. What is it?
+
+`127.0.0.1`
+
+> Question 2 of 3: Use the host or nslookup command to find the IPv4 addresses of en.wikipedia.org and ja.wikipedia.org — the servers for Wikipedia in English and Japanese. Are these sites on the same IP address?
+
+`Yes, they are on the same IP address`
+
+> Which of the URIs below refers to the same resource as https://en.wikipedia.org/wiki/Fish?
+
+` https://en.wikipedia.org:443/wiki/Fish`
