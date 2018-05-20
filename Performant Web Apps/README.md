@@ -11,3 +11,5 @@
 ## Lesson 05 - [Security](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2005%20-%20Security)
 
 ## Lesson 06 - [Requests & Responses](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2006%20-%20Requests%20%26%20Responses)
+
+## Lesson 07 - [The Web from Python](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2007%20-%20The%20Web%20from%20Python)
