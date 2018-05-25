@@ -13,3 +13,11 @@
 > Question 3 of 3 : The echo server wants to listen on the same port that the hello server does: port 8000. What happens if you try to start EchoServer.py while HelloServer.py is still running … or vice versa?
 
 `The new server exits with an OSError exception`
+
+## Concept 04 - Queries and quoting
+
+> What does parse_qs('texture=fuzzy&animal=gray+squirrel') return?
+
+`The dictionary {'texture': ['fuzzy'], 'animal:['gray squirrel']}`
+
+
