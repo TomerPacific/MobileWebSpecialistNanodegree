@@ -29,3 +29,18 @@
 > Question 2 of 2 : Using these two different forms as examples, can you tell what data in the form tells the browser which server to submit the form to?
 
 `The URI in the form action attribute`
+
+## Concept 06 - GET and POST
+
+> Question 1 of 2 : Here's a list of several (non-HTTP) actions. Mark the ones that are idempotent.
+
+- Adding zero to a numeric variable
+- Setting a variable to the value 5
+- Looking up an entry in a dictionary
+
+> Question 2 of 2 : What's different about this HTTP request from ones you've seen before?
+
+- The request line says "POST" instead of "GET"
+- The form data is not in the URI path of the request
+- The form data is somewhere else in the request
+
