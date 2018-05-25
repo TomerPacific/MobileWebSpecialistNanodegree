@@ -20,4 +20,12 @@
 
 `The dictionary {'texture': ['fuzzy'], 'animal:['gray squirrel']}`
 
+## Concept 05 - HTML and forms
 
+> Question 1 of 2 : What happens when you fill out the form and submit it?
+
+`You see the username and password you entered in the output from the echo server`
+
+> Question 2 of 2 : Using these two different forms as examples, can you tell what data in the form tells the browser which server to submit the form to?
+
+`The URI in the form action attribute`
