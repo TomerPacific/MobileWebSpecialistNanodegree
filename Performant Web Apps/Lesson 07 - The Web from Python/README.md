@@ -44,3 +44,16 @@
 - The form data is not in the URI path of the request
 - The form data is somewhere else in the request
 
+## Concept 07 - A server for POST
+
+> Question 1 of 3 : Which HTTP methods do you think this server will need to use?
+
+`GET for viewing messages, and POST for submitting them`
+
+> Question 2 of 3 : How do you think our code can tell how much data is in the request body of a POST request from a web browser?
+
+`The browser sends the length of the request body in the Content-Length header`
+
+> Question 3 of 3 : Bring your messageboard server up and send it some requests from your browser with different URI paths, like http://localhost:8000/bears or http://localhost:8000/udacity-rocks/my-foxes. Does it do anything different based on the URI path?
+
+`No, it doesn't`
