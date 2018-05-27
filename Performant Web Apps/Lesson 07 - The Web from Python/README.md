@@ -85,10 +85,22 @@ Added the following code to MessageboardPartTwo.py:
         self.wfile.write(form.encode())
 `
 
-
-
 > Question 3 of 3 : Bring your messageboard server up and send it some requests from your browser with different URI paths, like http://localhost:8000/bears or http://localhost:8000/udacity-rocks/my-foxes. Does it do anything different based on the URI path?
 
 `No, it doesn't`
 
 
+## Concept 08 - POST-Redirect-GET
+
+Added the following code to MessageboardPartThree.py
+
+Inside the do_POST method:
+
+`self.send_response(303)
+ self.send_header('Location', '/')
+ self.end_headers()`
+
+Inside the do_GET method:
+
+`response = form.format("\n".join(memory))
+ self.wfile.write(response.encode())`
