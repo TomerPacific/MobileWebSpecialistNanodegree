@@ -54,10 +54,6 @@
 
 `The browser sends the length of the request body in the Content-Length header`
 
-> Question 3 of 3 : Bring your messageboard server up and send it some requests from your browser with different URI paths, like http://localhost:8000/bears or http://localhost:8000/udacity-rocks/my-foxes. Does it do anything different based on the URI path?
-
-`No, it doesn't`
-
 **Exercise: Messageboard, part one**
 
 Added the following code to MessageboardPartOne.py:
@@ -69,4 +65,30 @@ Added the following code to MessageboardPartOne.py:
         self.send_header('Content-type', 'text/plain; charset=utf-8')
         self.end_headers()
         self.wfile.write(message.encode())`
+
+**Exercise: Messageboard, part two**
+
+Added the following code to MessageboardPartTwo.py:
+
+`def do_GET(self):
+         form = '''<!DOCTYPE html>
+  <title>Message Board</title>
+  <form method="POST" action="http://localhost:8000/">
+    <textarea name="message"></textarea>
+    <br>
+    <button type="submit">Post it!</button>
+  </form>
+'''
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(form.encode())
+`
+
+
+
+> Question 3 of 3 : Bring your messageboard server up and send it some requests from your browser with different URI paths, like http://localhost:8000/bears or http://localhost:8000/udacity-rocks/my-foxes. Does it do anything different based on the URI path?
+
+`No, it doesn't`
+
 
