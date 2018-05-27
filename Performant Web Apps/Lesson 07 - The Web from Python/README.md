@@ -104,3 +104,18 @@ Inside the do_GET method:
 
 `response = form.format("\n".join(memory))
  self.wfile.write(response.encode())`
+
+## Concept 09 - Making requests
+
+> Question 1 of 3 : Assuming you've still got your messageboard server running on port 8000, how would you send a GET request to it using the requests library? Which of these options works?
+
+`requests.get("http://localhost:8000/)`
+
+> Question 2 of 3 : If you have a response object called r, how can you get the response body — for instance, the HTML that the server sent?
+
+`Both of the above, but they're different`
+
+> Question 3 of 3 : Using the requests module, try making GET requests to nonexistent sites or pages, e.g. http://bad.example.com or http://google.com/NotExisty. Mark all of the statements that are true:
+
+- Accessing a nonexistent site raises a Python error
+- Accessing a nonexistent page on a real site gives you an object r whene r.status_code is an error code
