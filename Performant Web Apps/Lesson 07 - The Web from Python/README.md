@@ -57,3 +57,16 @@
 > Question 3 of 3 : Bring your messageboard server up and send it some requests from your browser with different URI paths, like http://localhost:8000/bears or http://localhost:8000/udacity-rocks/my-foxes. Does it do anything different based on the URI path?
 
 `No, it doesn't`
+
+**Exercise: Messageboard, part one**
+
+Added the following code to MessageboardPartOne.py:
+
+` length = int(self.headers.get('Content-length', 0))
+        data = self.rfile.read(length).decode()
+        message = parse_qs(data)["message"][0]
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(message.encode())`
+
