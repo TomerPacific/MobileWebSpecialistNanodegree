@@ -119,3 +119,9 @@ Inside the do_GET method:
 
 - Accessing a nonexistent site raises a Python error
 - Accessing a nonexistent page on a real site gives you an object r whene r.status_code is an error code
+
+## Concept 10 - Using a JSON API
+
+> What happens if you call r.json() on a Response that isn't made of JSON data, such as the Udacity main page?
+
+`It raises an exception defined in Python's json library`
