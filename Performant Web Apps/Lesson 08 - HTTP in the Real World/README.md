@@ -90,3 +90,9 @@ In the do_POST method :
 > Question 3 of 3 : If HTTP methods are the "verbs" in the protocol, what are the "objects" (in the grammatical sense)?
 
 `URIs`
+
+## Concept 07 - New developments in HTTP
+
+> In the Gophertiles demo, try the HTTP/2 and HTTP/1 links with 1 second of latency. What do you notice about the time it takes to load all the images?
+
+`HTTP/2 loads much more quickly than HTTP/1`
