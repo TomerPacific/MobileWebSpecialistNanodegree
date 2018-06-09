@@ -76,3 +76,17 @@ In the do_POST method :
 - A malcious program on your computer taking a screenshot of your browser
 - An attacker guessing your Heroku password and replacing your service with a malicious one
 - An attacker who had broken into Heroku's servers themselves
+
+## Concept 06 - Beyond GET and POST
+
+> Question 1 of 3 : PUT can be used for actions such as uploading a file to a web site. However, it's not the most common way to do file uploads. PUT has to be done in application code (e.g. JavaScript), whereas with another method it's possible to do uploads with just HTML on the client side. What method do you think this describes?
+
+`POST`
+
+> Question 2 of 3 : What's something that we would almost always want the client to do before allowing it to delete resources in your application?
+
+`Log in, or otherwise authenticate`
+
+> Question 3 of 3 : If HTTP methods are the "verbs" in the protocol, what are the "objects" (in the grammatical sense)?
+
+`URIs`
