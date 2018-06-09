@@ -45,5 +45,34 @@ In the do_POST method :
  c['yourname']["domain"] = "localhost"`
 
  In the do_GET method : 
+
 `cookie = cookies.SimpleCookie(self.headers["cookie"])
  name = cookie['yourname'].value`
+
+## Concept 05 - HTTPS for security
+
+> Question 1 of 4 : Here are a few different malicious things that an attacker could do to normal HTTP traffic. Each of the three guarantees (privacy, authenticity, and integrity) helps defend against one of them. Match them up!
+
+- You're reading your email in a coffee shop, and the shop owner can read your email off of their Wi-Fi network you're using.
+`Privacy`
+
+- You think you're logging into Facebook, but actually you're sending your Facebook password to a server in the coffee shop's back room.
+`Authenticity`
+
+- The coffee shop owner doesn't like cat pictures, so they replace all the cat pictures on the web pages you're looking at with pictures of celery.
+`Integrity`
+
+> Question 2 of 4 : Take a look at the TLS certificate presented for your deployed app, or the screenshots above from my version of it. What organization was this server certificate issued to? Who issued it?
+
+`It was issued to Heroku, and the issuer is DigiCert`
+
+> Question 3 of 4 : Suppose that an attacker were able to trick your browser into sending your udacity.com requests to the attacker's server instead of Udacity's real servers. What could the attacker do with that evil ability?
+
+- Steal your udacity.com cookies, use them to log into the real site as you, and post terrible spam to the discussion forums
+- Make this course appear with terrible images in it instead of nice friendly ones
+
+> Question 4 of 4 : When your browser talks to your deployed service over HTTPS, there are still some ways that an attacker could spy on the communication. Mark the cases that HTTPS does not protect against:
+
+- A malcious program on your computer taking a screenshot of your browser
+- An attacker guessing your Heroku password and replacing your service with a malicious one
+- An attacker who had broken into Heroku's servers themselves
