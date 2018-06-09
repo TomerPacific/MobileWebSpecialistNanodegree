@@ -33,3 +33,17 @@ And at the bottom of the code changed the line that creates an HTTPServer to  th
 > Imagine that you have a service that is handling 6,000 requests per second. One-third of its of requests are for the site's CSS file, which doesn't change very often. So browsers shouldn't need to fetch it every time they load the site. If you tell the browser to cache the CSS, 1% of visitors will need to fetch it. After this change, about how many requests will the service be getting?
 
 `A third of all requests (6,000) is 2,000. 1% of 2,000 is 20 so the remaining requests, 4,000, plus the necessary fetch requests is 4,020`
+
+## Concept 04 - Cookies
+
+Added the following code to CookieServer.py
+
+In the do_POST method :
+
+`c['yourname'] = yourname
+ c['yourname']["maxage"] = 100
+ c['yourname']["domain"] = "localhost"`
+
+ In the do_GET method : 
+`cookie = cookies.SimpleCookie(self.headers["cookie"])
+ name = cookie['yourname'].value`
