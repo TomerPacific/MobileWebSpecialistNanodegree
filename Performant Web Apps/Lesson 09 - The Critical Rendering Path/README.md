@@ -17,3 +17,11 @@
 > Which change triggers layout with a larger scope?
 
 `They have the same scope` 
+
+## Concept 12 Quiz - Rendering Quiz
+
+> Which process does the browser perfrom to render the new page?
+
+- layout
+- paint
+- composite 
