@@ -24,4 +24,10 @@
 
 - layout
 - paint
-- composite 
+- composite
+
+## Concept 13 Quiz - CSS Research
+
+- Layout, Paint, Composite : align-items
+- Paint, Composite : text-decoration
+- Composite : cursor 
