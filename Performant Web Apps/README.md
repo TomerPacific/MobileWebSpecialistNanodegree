@@ -17,3 +17,5 @@
 ## Lesson 08 - [HTTP in the Real World](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2008%20-%20HTTP%20in%20the%20Real%20World)
 
 ## Lesson 09 - [The Critical Rendering Path](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2009%20-%20The%20Critical%20Rendering%20Path)
+
+## Lesson 10 - [App Lifecycles](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2010%20-%20App%20Lifecycles)
