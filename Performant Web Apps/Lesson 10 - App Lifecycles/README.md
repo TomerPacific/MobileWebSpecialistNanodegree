@@ -25,3 +25,21 @@
 - pull-to-refresh
 - side menu slide
 - opening comments
+
+## Concept 11 Quiz - RAIL Scenario 1
+
+> Should the spinner image be requested during the animation phase?
+
+`No! The request will take more than 16ms`
+
+or 
+
+`No! Even if the request finishes in less than 16ms, the overhead will stretch the frame over 16ms`
+
+## Concept 12 Quiz - RAIL Scenario 2
+
+> In the `~`50ms post-load idle phase, what tasks can you accomplish?
+
+- FLIPing UI animations
+- Starting below-the-fold async requests
+- Fetching images for below-the-fold content
