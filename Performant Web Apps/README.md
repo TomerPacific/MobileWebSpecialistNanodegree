@@ -19,3 +19,5 @@
 ## Lesson 09 - [The Critical Rendering Path](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2009%20-%20The%20Critical%20Rendering%20Path)
 
 ## Lesson 10 - [App Lifecycles](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2010%20-%20App%20Lifecycles)
+
+## Lesson 11 - [Weapons Of Jank Destruction](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2011%20-%20Weapons%20Of%20Jank%20Destruction)
