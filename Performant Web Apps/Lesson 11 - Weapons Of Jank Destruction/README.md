@@ -9,3 +9,9 @@
 > If called during an animation, is 60FPS possible?
 
 `Nope`
+
+## Concept 10 Quiz - More Timeline Practice
+
+> What function caised the jank?
+
+`onSwitchLayoutClick`
