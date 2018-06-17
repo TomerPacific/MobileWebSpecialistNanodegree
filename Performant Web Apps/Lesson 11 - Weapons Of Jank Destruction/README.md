@@ -21,3 +21,9 @@
 > What function caused the jank?
 
 `totesLayingOutYo`
+
+## Concept 12 Quiz - Finding More Jank
+
+> What's causing the jank?
+
+`Too much painting caused by JS`
