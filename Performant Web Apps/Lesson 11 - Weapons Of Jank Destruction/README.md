@@ -12,6 +12,12 @@
 
 ## Concept 10 Quiz - More Timeline Practice
 
-> What function caised the jank?
+> What function caused the jank?
 
 `onSwitchLayoutClick`
+
+## Concept 11 Quiz - Finding Janky Functions
+
+> What function caused the jank?
+
+`totesLayingOutYo`
