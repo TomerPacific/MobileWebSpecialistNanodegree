@@ -21,3 +21,5 @@
 ## Lesson 10 - [App Lifecycles](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2010%20-%20App%20Lifecycles)
 
 ## Lesson 11 - [Weapons Of Jank Destruction](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2011%20-%20Weapons%20Of%20Jank%20Destruction)
+
+## Lesson 12 - [JavaScript]https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2012%20-%20JavaScript)
