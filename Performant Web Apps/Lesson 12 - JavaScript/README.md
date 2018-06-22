@@ -18,3 +18,11 @@
 In order to fix the jank in the code, it was required to remove the main code from image-apps.js to worker.js. It was also necessary to create a worker.js instance inside image-apps.js in order to use the code that was removed.
 
 In order to fix the performance issue, it was necessary to remove the creation of the manipulation method out of the for loop inside imageManips.js.
+
+## Concept 09 Quiz - A Snappier QR Code App Part 1
+
+Replacing setInterval in two places in main.js :
+
+`setInterval(captureFrame.bind(self), 4); -> requestAnimationFrame(captureFrame.bind(self));`
+
+And also adding the call to requestAnimationFrame at the end of the captureFrame method
