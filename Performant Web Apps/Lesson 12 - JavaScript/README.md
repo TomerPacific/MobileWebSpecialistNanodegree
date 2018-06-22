@@ -12,3 +12,9 @@
 > Analyze the site in the instructor notes. Which function takes longer to run?
 
 `onSortOne`
+
+## Concept 07 Quiz - Web Workers
+
+In order to fix the jank in the code, it was required to remove the main code from image-apps.js to worker.js. It was also necessary to create a worker.js instance inside image-apps.js in order to use the code that was removed.
+
+In order to fix the performance issue, it was necessary to remove the creation of the manipulation method out of the for loop inside imageManips.js.
