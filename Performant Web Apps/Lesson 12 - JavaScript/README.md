@@ -26,3 +26,28 @@ Replacing setInterval in two places in main.js :
 `setInterval(captureFrame.bind(self), 4); -> requestAnimationFrame(captureFrame.bind(self));`
 
 And also adding the call to requestAnimationFrame at the end of the captureFrame method
+
+## Concept 10 Quiz - A Snappier QR Code App Part 2
+
+- Created a Worker instance in main.js inside QRCodeManager
+- Removed scripts found in qrworker.js from index.html
+- Added postMessage calls inside qrworker.js
+- Added the following code inside detectQRCode :
+
+` qrWorker.postMessage(imageData);
+qrWorker.onmessage = function(result) {
+        var url = result.data;
+        if (url !== undefined) {
+          self.currentUrl = url;
+        }
+        callback(url);
+      };
+ qrWorker.onerror = function(error) {
+        function WorkerException(message) {
+          this.name = "WorkerException";
+          this.message = message;
+        };
+        throw new WorkerException("Decoder Error");
+        callback(undefined);
+      };`
+
