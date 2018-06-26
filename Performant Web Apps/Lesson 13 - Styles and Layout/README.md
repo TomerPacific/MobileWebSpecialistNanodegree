@@ -12,7 +12,7 @@
 
 `.box-last > .title-container > .title` 
 
-## Concept 08 Quiz - FSL
+## Concept 07 Quiz - FSL
 
 > Which of these 3 code snippets cannot caise a Forced Synchronous Layout warning?
 
@@ -20,3 +20,9 @@
 divs.forEach(function(elem, index, arr) {
     elem.style = newWidth;
 )}`
+
+## Concept 08 Quiz - Stopping FSL Strategy
+
+> What can reasonably be done to avoid FSL?
+
+`Read layout properties then batch style changes`
