@@ -11,3 +11,12 @@
 > Which CSS selector is fastest?
 
 `.box-last > .title-container > .title` 
+
+## Concept 08 Quiz - FSL
+
+> Which of these 3 code snippets cannot caise a Forced Synchronous Layout warning?
+
+`var newWidth = container.offsetWidth;
+divs.forEach(function(elem, index, arr) {
+    elem.style = newWidth;
+)}`
