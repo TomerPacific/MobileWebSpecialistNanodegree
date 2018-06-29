@@ -26,3 +26,25 @@ divs.forEach(function(elem, index, arr) {
 > What can reasonably be done to avoid FSL?
 
 `Read layout properties then batch style changes`
+
+## Concept 10 Quiz - Stop FSL
+
+Refactored sizeSwitcher and changePizzaSizes to the following:
+
+`// Iterates through pizza elements on the page and changes their widths
+    function changePizzaSizes (size) {
+      switch(size) {
+        case "1":
+          return 25;
+        case "2":
+          return 33.3;
+        case "3":
+          return 50;
+        default:
+          console.log("bug in sizeSwitcher");
+      }
+    var randomPizzaContainer = document.querySelectorAll(".randomPizzaContainer");
+    for (var i = 0; i < randomPizzaContainer.length; i++) {
+      randomPizzaContainer[i].style.width = newwidth;
+    }
+  }`
