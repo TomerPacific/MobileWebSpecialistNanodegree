@@ -25,3 +25,5 @@
 ## Lesson 12 - [JavaScript](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2012%20-%20JavaScript)
 
 ## Lesson 13 - [Styles and Layout](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2013%20-%20Styles%20and%20Layout)
+
+## Lesson 14 - [Compositing and Painting](https://github.com/TomerPacific/MobileWebSpecialistNanodegree/tree/master/Performant%20Web%20Apps/Lesson%2014%20-%20Compositing%20and%20Painting)
