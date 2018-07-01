@@ -27,3 +27,13 @@ Added the following CSS style rule to `.box` :
 `will-change: transform;`
 
 Code is : **willwhatchange?**  
+
+## Concept 11 Quiz - Layer Counting
+
+> How many layers are there (besides #document) ?
+
+`2`
+
+> Why was #totes-promoted promoted?
+
+`overlap with composited content`
