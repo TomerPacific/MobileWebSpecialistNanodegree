@@ -37,3 +37,9 @@ Code is : **willwhatchange?**
 > Why was #totes-promoted promoted?
 
 `overlap with composited content`
+
+## Concept 12 Quiz - Painting and Compositing
+
+`#background {
+	will-change: transform;
+}`
